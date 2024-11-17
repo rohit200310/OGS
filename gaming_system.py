@@ -10,6 +10,7 @@ st.set_page_config(page_title="Online Gaming System", page_icon="🎮", layout="
 # Mock Data for Users (Username and Password Hash)
 users_db = {
     "admin": hashlib.sha256("admin123".encode()).hexdigest(),
+    "inrofina@gmail.com": hashlib.sha256("pass123".encode()).hexdigest(),
     "user1": hashlib.sha256("password1".encode()).hexdigest(),
     "player1": hashlib.sha256("gamer123".encode()).hexdigest()
 }
